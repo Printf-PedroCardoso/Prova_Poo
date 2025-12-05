@@ -3,10 +3,10 @@ package Main;
 import java.util.ArrayList;
 
 public class Pedido {
-    ArrayList<> Itens;
-    Cliente cliente;
-    Empresa empresa;
-    Vendedor vendedor;
+    private ArrayList<> Itens;
+    private Cliente cliente;
+    private Empresa empresa;
+    private Vendedor vendedor;
 
     public Pedido(Cliente cliente, Empresa empresa, Vendedor vendedor) {
         this.cliente = cliente;
