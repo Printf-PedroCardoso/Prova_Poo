@@ -7,6 +7,7 @@ public class Pedido {
     private Cliente cliente;
     private Empresa empresa;
     private Vendedor vendedor;
+    private Pagamento pagamento;
 
     public Pedido(Cliente cliente, Empresa empresa, Vendedor vendedor) {
         this.cliente = cliente;
@@ -49,5 +50,23 @@ public class Pedido {
 
     public void setVendedor(Vendedor vendedor) {
         this.vendedor = vendedor;
+    }
+
+    public Pagamento getPagamento() {
+        return pagamento;
+    }
+
+    public void setPagamento(Pagamento pagamento) {
+        this.pagamento = pagamento;
+    }
+
+    private void validar()
+    {
+        int total = 0;
+        for (item: Itens)
+        {
+            total = total + (item.getProduto().)
+        }
+
     }
 }
