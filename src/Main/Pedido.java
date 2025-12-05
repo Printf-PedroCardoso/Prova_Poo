@@ -3,7 +3,7 @@ package Main;
 import java.util.ArrayList;
 
 public class Pedido {
-    ArrayList Itens = new ArrayList()<Item>;
+    ArrayList<> Itens;
     Cliente cliente;
     Empresa empresa;
     Vendedor vendedor;
@@ -12,6 +12,7 @@ public class Pedido {
         this.cliente = cliente;
         this.empresa = empresa;
         this.vendedor = vendedor;
+        Itens = new ArrayList()<Item>;
     }
 
     public void AdicionarItem (Item item){

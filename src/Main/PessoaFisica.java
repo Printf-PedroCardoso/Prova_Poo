@@ -3,8 +3,8 @@ package Main;
 public class PessoaFisica extends Pessoa{
     private String dataNascimento;
 
-    public PessoaFisica(String registro, String nome, String telefone, String dataNascimento) {
-        super(registro, nome, telefone);
+    public PessoaFisica(String registro, String nome, String telefone, String dataNascimento, Endereco endereco) {
+        super(registro, nome, telefone, endereco);
         this.dataNascimento = dataNascimento;
     }
 

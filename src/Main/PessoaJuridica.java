@@ -5,8 +5,8 @@ public class PessoaJuridica extends Pessoa implements ExibirDados{
     private String dataFundacao;
 
 
-    public PessoaJuridica(String registro, String nome, String telefone, String razaoSocial, String dataFundacao) {
-        super(registro, nome, telefone);
+    public PessoaJuridica(String registro, String nome, String telefone, String razaoSocial, String dataFundacao, Endereco endereco) {
+        super(registro, nome, telefone, endereco);
         this.razaoSocial = razaoSocial;
         this.dataFundacao = dataFundacao;
     }
